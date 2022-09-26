@@ -17,8 +17,8 @@ print(number_of_authors(books[0]))
 def get_book_by_id(book_id, books):
     for book in books:
         if book_id == book["id"]:
-            set_book = book
-    return set_book
+           return book
+    
 
       
     
